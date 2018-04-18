@@ -1,0 +1,13 @@
+'use strict';
+let x = 7;
+x = x % 3;
+console.log(x);
+let y = 11;
+y = y % 4;
+console.log('The value of y will be 3.', y);
+let z = 33;
+z = z % 8;
+console.log('The new value of z will be 1', z);
+let n = 85;
+n = n % 9;
+console.log('The value of n will be 4.', n);
