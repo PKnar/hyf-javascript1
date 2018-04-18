@@ -18,18 +18,18 @@ console.log(typeof languages);
 console.log(typeof learningJavascript);
 console.log(typeof y);
 console.log(typeof currentSeason);
-if (x !== languages) {
+if (typeof x !== typeof languages) {
     console.log('Not same type');
 }
-if (x !== y) {
+if (typeof x !== typeof y) {
     console.log('Not same type');
 }
-if (course !== languages) {
+if (typeof course !== typeof languages) {
     console.log('Not same type');
 }
-if (course !== currentSeason) {
+if (typeof course !== typeof currentSeason) {
     console.log('Not same type');
 }
-if (x !== learningJavascript) {
+if (typeof x !== typeof learningJavascript) {
     console.log('Not same type');
 }
