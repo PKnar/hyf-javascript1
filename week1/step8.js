@@ -11,7 +11,7 @@ let y = 857;
 console.log('The value of my variable y is:857', y);
 let currentSeason = 'Spring';
 console.log('The value of my variable currentSeason is:Spring', currentSeason);
-console.log('Variables x and y are numeric variables.', 'Variables course and currentSeason are strings.', 'Variable languages is an array.', 'Variable learningJavascript is a boolean.')
+console.log('Variables x and y are numbers.', 'Variables course and currentSeason are strings.', 'Variable languages is an array.', 'Variable learningJavascript is a boolean.')
 console.log(typeof x);
 console.log(typeof course);
 console.log(typeof languages);
