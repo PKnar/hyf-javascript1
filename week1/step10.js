@@ -8,5 +8,5 @@ let y = 10 / 0;
 if(x === y) {
    console.log("True");
 else
-  consol.log("False");
+  console.log("False");
 }
