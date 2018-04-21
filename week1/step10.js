@@ -5,8 +5,9 @@ console.log(multipleTypes);
 
 let x = 6 / 0;
 let y = 10 / 0;
-if(x === y) {
-   console.log("True");
-else
+if (x === y) {
+  console.log("True");
+} else {
   console.log("False");
 }
+
