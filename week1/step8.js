@@ -20,16 +20,26 @@ console.log(typeof y);
 console.log(typeof currentSeason);
 if (typeof x !== typeof languages) {
     console.log('Not same type');
+} else {
+    console.log();
 }
 if (typeof x !== typeof y) {
     console.log('Not same type');
+} else {
+    console.log();
 }
 if (typeof course !== typeof languages) {
     console.log('Not same type');
+} else {
+    console.log();
 }
 if (typeof course !== typeof currentSeason) {
     console.log('Not same type');
+} else {
+    console.log();
 }
 if (typeof x !== typeof learningJavascript) {
     console.log('Not same type');
+} else {
+    console.log();
 }
