@@ -1,13 +1,17 @@
 'use strict';
 let multipleTypes = [3, 'string'];
-console.log(multipleTypes);
-//yes you can store multiple types in an array
+if (multipleTypes[0] !== multipleTypes[1]) {
+  console.log('Yes you can store multiple types in an array.')
+} else {
+  console.log('You can not store multiple types in an array.');
+}
+
 
 let x = 6 / 0;
 let y = 10 / 0;
 if (x === y) {
-  console.log("True");
+  console.log('Infinities can be compared.');
 } else {
-  console.log("False");
+  console.log('Infinities can not be compared.');
 }
 
