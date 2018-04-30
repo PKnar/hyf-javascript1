@@ -45,6 +45,7 @@ const tuesday = [
 const tasks = monday.concat(tuesday);
 
 let perHourSalary = 25;
+
 let totalWorkHours = 0;
 
 for (let i = 0; i < tasks.length; i++) {
