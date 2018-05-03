@@ -14,9 +14,16 @@ console.log('The array has a length of: ' + favoriteAnimals.length);
 
 //Deleting item at specific index
 favoriteAnimals.splice(3, 1);
+
 console.log(favoriteAnimals);
 
 //Finding the index of item and removing it
-console.log('The item you are looking for is at index: ' + favoriteAnimals.indexOf('meerkat'));
-favoriteAnimals.splice(1, 1);
+const index = favoriteAnimals.indexOf('meerkat');
+
+console.log('The item you are looking for is at index: ' + index);
+
+if (index !== -1) {
+    favoriteAnimals.splice(1, 1);
+}
+
 console.log(favoriteAnimals);
