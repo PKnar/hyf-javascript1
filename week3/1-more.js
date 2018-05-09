@@ -4,4 +4,5 @@ function sum(a, b, c) {
     return a * b * c;
 }
 
-console.log(sum(5, 6, 3));
+const result = sum(5, 6, 3);
+console.log(result);

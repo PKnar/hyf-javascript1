@@ -1,8 +1,9 @@
 'use strict';
+
 function advertisement(vehicleNames) {
 
     //Making strings in the array plural
-    const pluralArrayElements = vehicles.map(vehicles => `${vehicles}s`);
+    const pluralArrayElements = vehicleNames.map(vehicleNames => `${vehicleNames}s`);
     // Adding 'and' word instead of the last comma
     const replaceLastComma = pluralArrayElements.toString().replace(/,(?=[^,]+$)/, ' and ');
     //Replacing current commas.. adding new commas with space

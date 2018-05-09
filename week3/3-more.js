@@ -1,9 +1,9 @@
 'use strict';
 
 function printObject(object) {
-    console.log('Country name = ' + object.countryName);
-    console.log('The capital = ' + object.theCapital);
-    console.log('Official language = ' + object.officialLanguage);
+    for (const prop in object) {
+        console.log(prop + '=' + object[prop]);
+    }
 }
 
 const country = {

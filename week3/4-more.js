@@ -2,14 +2,15 @@
 
 function vehicleType(color, code) {
 
+    let vehicle;
     if (code === 1) {
-        code = 'car';
+        vehicle = 'car';
     } else if (code === 2) {
-        code = 'motorbike';
+        vehicle = 'motorbike';
     } else {
         return 'unknown vehicle';
     }
-    return 'a ' + color + ' ' + code;
+    return 'a ' + color + ' ' + vehicle;
 }
 
 console.log(vehicleType('white', 1));
